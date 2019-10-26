@@ -1,8 +1,26 @@
 {
     "name": "guomengtao/guomengtao",
-    "description": "A short description of what your package does",
+    "description": " short description of what your package does",
+   "keywords": [
+    "tree",
+    "guomengtao",
+    "tree-data"
+  ],
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "guomengtao",
+            "email": "guomengtao@gmail.com"
+        }
+    ],
     "require": {
-        "php": ">=5.4",
-        "another-vendor/package": "1.*"
-    }
+        
+        "php": ">=5.4"
+    },
+     "license": "MIT",
+     "autoload": {
+            "psr-4": {
+                "Guomengtao\\": "src/"
+            }
+        }
 }
