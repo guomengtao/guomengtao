@@ -7,8 +7,14 @@
 
 
 # 创建虚拟机命令
+> multipass shell vm1
+
+
 
 ## 显示所有已创建的虚拟机
+> multipass shell vm1
+
+
 ## 进入某台虚拟机
 
 
