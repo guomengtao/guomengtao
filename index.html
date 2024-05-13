@@ -1,99 +1,68 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>The first webpage</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">  
-  <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-</head>
- <body style="padding-top:70px;">
-    <header class="navbar navbar-default navbar-fixed-top"  >
-      <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-8" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Brand</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="https://github.com/guomengtao/guomengtao/edit/master/index.html">编辑</a></li>
-            <li><a href="http://guomengtao.github.io/guomengtao/index.html?898912345689">最新版</a></li>
-            <li><a href="http://www.weibo.com"  target="_blank" >微博789</a></li>
-<li><a href="https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=baidu&wd=site%3Aw3.rinuo.com&oq=http%253A%252F%252Fsite%253Aw%2526lt%253B.rinuo.com&rsv_pq=ae95b96d0000ebf8&rsv_t=dd6ebi%2FE2D7Qhb%2FtY4NDJYgK2lr6GxaFjYfdnsa1KWsj6xRkPwPJA5NrHME&rqlang=cn&rsv_enter=1&rsv_sug3=1&rsv_sug2=0&inputT=571&rsv_sug4=571"  target="_blank" >site:w3.rinuo.com</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div>
-    </header> 
-     
-   
-     
-     
- 
-     
- 
-     
-     
-     
-<div  class="container" >
-	<div class="alert alert-info hidden-xs"   style="height: 280px;">
-
-
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<!-- 160x600, build 08-10-30 -->
-	<ins class="adsbygoogle"
-	     style="display:inline-block;width:970px;height:250px"
-	     data-ad-client="ca-pub-8644709060035439"
-	     data-ad-slot="6439001474"></ins>
-	<script>
-	(adsbygoogle = window.adsbygoogle || []).push({});
-	</script>
-
-	</div>
-    <div style="    padding-bottom: 20px;padding-right:20px;">
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- auto the size -->
-		<ins class="adsbygoogle"
-			 style="display:block"
-			 data-ad-client="ca-pub-8644709060035439"
-			 data-ad-slot="9891231350"
-			 data-ad-format="auto"></ins>
-		<script>
-		(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
-    </div>
-<div class="alert alert-info" >
-    
+<!DOCTYPE html>  
+<html lang="zh-CN">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>C语言入门新篇章：Hello World</title>  
+    <!-- 引入Bootstrap CSS -->  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">  
+    <style>  
+        /* 自定义样式 */  
+        .intro {  
+            text-align: justify;  
+        }  
+        code {  
+            background-color: #f1f1f1;  
+            padding: 2px 4px;  
+            border-radius: 4px;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <div class="container mt-5">  
+        <h1>C语言入门新篇章：Hello World</h1>  
+        <p class="intro">  
+            欢迎来到编程的奇妙世界！无论你是因为对技术的热爱，还是为了未来的职业发展，亦或是仅仅出于好奇，学习编程都是一个令人兴奋且充满挑战的决定。而C语言，作为编程语言的鼻祖之一，以其高效、灵活和接近底层硬件的特性，成为了众多程序员入门的第一选择。  
+        </p>  
+        <h2>一、什么是C语言？</h2>  
+        <p>  
+            C语言是一种通用的、过程式的计算机编程语言，广泛应用于系统级编程，如操作系统、编译器、数据库等。它的设计提供了低级处理的功能，包括内存管理、数据类型定义、以及直接与硬件通信等。由于其高效、灵活和可移植性，C语言至今仍被广泛应用于各种领域。  
+        </p>  
+        <h2>二、编写“Hello World”程序</h2>  
+        <p>  
+            在编程的世界里，每个初学者都会从“Hello World”这个程序开始。这是一个非常简单的程序，它仅仅在屏幕上打印出“Hello, World!”这句话。但是，它标志着你的编程之旅已经闪亮启航！  
+        </p>  
+        <pre><code>  
+#include &lt;stdio.h&gt;  
   
-    
-    <div id="tp-weather-widget"></div>
-<script>(function(T,h,i,n,k,P,a,g,e){g=function(){P=h.createElement(i);a=h.getElementsByTagName(i)[0];P.src=k;P.charset="utf-8";P.async=1;a.parentNode.insertBefore(P,a)};T["ThinkPageWeatherWidgetObject"]=n;T[n]||(T[n]=function(){(T[n].q=T[n].q||[]).push(arguments)});T[n].l=+new Date();if(T.attachEvent){T.attachEvent("onload",g)}else{T.addEventListener("load",g,false)}}(window,document,"script","tpwidget","//widget.seniverse.com/widget/chameleon.js"))</script>
-<script>tpwidget("init", {
-    "flavor": "slim",
-    "location": "WX4FBXXFKE4F",
-    "geolocation": "disabled",
-    "language": "en",
-    "unit": "f",
-    "theme": "chameleon",
-    "container": "tp-weather-widget",
-    "bubble": "enabled",
-    "alarmType": "badge",
-    "uid": "U0850DE60A",
-    "hash": "309bfc507e2c6b16ef3186f76585baa9"
-});
-tpwidget("show");</script>
-    
-    
-    </div>
-    
-   <div class="alert alert-info alert-dismissible" role="alert">
-  <button type="button" class="close" data-dismiss="alert
+int main() {  
+    printf("Hello, World!\n");  
+    return 0;  
+}  
+        </code></pre>  
+        <p>  
+            让我们来逐行解释这个程序：  
+            <ul>  
+                <li><code>#include &lt;stdio.h&gt;</code>：这是一个预处理指令，它告诉编译器在实际编译之前要包含标准输入输出头文件（stdio.h）。</li>  
+                <li><code>int main()</code>：这是程序的主函数，程序的执行从这里开始。</li>  
+                <li><code>printf("Hello, World!\n")</code>：这是C语言中的标准输出函数，用于在屏幕上打印字符串。</li>  
+            </ul>  
+        </p>  
+        <h2>三、编译和运行程序</h2>  
+        <p>  
+            编写完程序后，我们需要使用编译器将源代码编译成机器语言，然后才能运行。在大多数操作系统中，我们可以使用GCC（GNU Compiler Collection）编译器来编译C语言程序。  
+        </p>  
+        <p>  
+            假设你的源代码文件名为hello.c，你可以在命令行中输入以下命令来编译它：  
+            <code>gcc hello.c -o hello</code>  
+            编译成功后，你就可以在命令行中输入以下命令来运行程序：  
+            <code>./hello</code>  
+        </p>  
+        <p>  
+            恭喜你，你已经迈出了编程之旅的第一步！希望你在接下来的学习中能够不断进步，享受编程带来的乐趣和成就感。  
+        </p>  
+    </div>  
+    <!-- 引入Bootstrap JS 和 jQuery（如果需要的话） -->  
+    <!-- 注意：这里仅包含CSS，因为Bootstrap的JS组件通常需要jQuery，但在这个示例中我们不需要 -->  
+</body>  
+</html>
